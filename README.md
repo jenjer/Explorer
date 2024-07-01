@@ -164,7 +164,7 @@ Memory : 52만개 데이터 기준 307MB
 기본적으로 사용하는 메모리가 53인것을 고려해 내부 자료구조가 어떤형식으로 되는지 유추를 진행함
 이는
 
-```cpp
+
 typedef struct dir_property
 {
 	char	*name;
@@ -172,7 +172,7 @@ typedef struct dir_property
 	int		size; //size가 -1일경우에는 디렉토리, 
 	DWORD	date;
 };
-```
+
 
 로 진행했을 때 평균 이름 크기 15글자, path 길이를 65글자로 진행했을 때 나오는 크기와 비슷함 
 name포인터 8바이트, + path포인터 8바이트, size 변수 4바이트

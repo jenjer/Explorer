@@ -1,5 +1,3 @@
-# Explorer
-make NTFS Explorer with MFC and Sqlite3
 [toc]
 
 파일 및 디렉토리 탐색 기능을 가진 프로그램을 제작하는 프로젝트
